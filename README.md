@@ -28,6 +28,8 @@ I am documenting my progress in the [`journal/`](./journal) directory.
         - Perform efficient aggregations (summing totals) directly from the model context.
         - Visualize spending trends using Swift Charts bound to SwiftData models.
 
+---
+
 #### Android
 - [ ] **Kotlin Fundamentals**: Focus on differences from Swift (Data classes, Coroutines, etc).
     - **Project: CLI Note Taker**: A simple command-line tool to add, list, and delete notes to a file, using Kotlin's IO and data classes.
@@ -35,6 +37,8 @@ I am documenting my progress in the [`journal/`](./journal) directory.
     - **Project: Movie Browser**: Fetch data from TMDB API, display a grid of posters, and a detailed view with animations.
 - [ ] **Modern Android Architecture**: MVVM with ViewModel, LiveData/Flow, and Dependency Injection (Hilt/Koin).
     - **Project: Weather App**: Implement location services, API repository pattern, and reactive UI updates based on weather changes.
+
+---
 
 ### 🌐 Frontend (Web)
 
@@ -57,9 +61,11 @@ I am documenting my progress in the [`journal/`](./journal) directory.
 - [ ] **React Patterns**: Higher-Order Components, Custom Hooks, and Composition.
     - **Project: Form Builder Library**: Create a reusable `useForm` hook and a set of composed Input components that handle validation and errors generic.
 
+---
+
 ### ⚙️ Backend
 
-- [ ] **Ruby on Rails Advanced**: Performance tuning, Background jobs (Sidekiq), and Metaprogramming.
+- [ ] **Ruby on Rails Advanced**: Performance tuning, rake services, and Metaprogramming.
     - **Project: Bulk Email Sender**: Allow users to upload a CSV of 10k users and send personalized emails using Sidekiq batches, handling retries and rate limits.
 - [ ] **Redis in Rails**: Caching strategies and transient state.
     - **Project: Rate Limiter Middleware**: Implement a custom Rack middleware (or use Kredis) to rate limit API requests by IP/User using Redis counters.
